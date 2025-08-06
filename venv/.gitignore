@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Environment variables - VERY IMPORTANT for security
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Temporary files created by our application
+temp_files/
+questions.json
+
+# The FAISS vector store index. This can be large and is
+# generated automatically when the app runs.
+vector_store/

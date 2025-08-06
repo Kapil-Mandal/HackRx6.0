@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+langchain
+openai
+faiss-cpu # or faiss-gpu if you have a compatible GPU
+pypdf
+python-docx
+python-dotenv
+tiktoken
