@@ -2,9 +2,11 @@ fastapi
 uvicorn[standard]
 pydantic
 langchain
+langchain-community
 openai
-faiss-cpu # or faiss-gpu if you have a compatible GPU
+faiss-cpu
 pypdf
 python-docx
 python-dotenv
 tiktoken
+requests
